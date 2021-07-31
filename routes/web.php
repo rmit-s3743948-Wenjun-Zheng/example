@@ -18,4 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('insert', [\App\Http\Controllers\DataController::class, 'insert']);
+
+

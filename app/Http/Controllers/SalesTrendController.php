@@ -14,7 +14,6 @@ class SalesTrendController extends BaseController
      *
      * @return \Illuminate\Http\Response
      */
-    //列出表中的数据
     public function index()
     {
     }
@@ -71,7 +70,6 @@ class SalesTrendController extends BaseController
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    //传递id并通过id获取单一数据
     public function show($id)
     {
 
